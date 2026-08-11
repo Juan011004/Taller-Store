@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda: productos sostenibles para una vida cotidiana con menos residuos.">
+  <title>Tienda | Consumo consciente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#productos">Saltar al contenido</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Tienda, inicio">
+        <img src="assets/logo.svg" alt="" width="56" height="56">
+        <span><strong>Tienda</strong><small>Consumo consciente</small></span>
+      </a>
+      <div class="header-note"><span aria-hidden="true">●</span> Envíos a toda Colombia</div>
+    </header>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Pequeños hábitos, gran impacto</p>
+          <h1 id="hero-title">Objetos útiles para vivir con menos residuos.</h1>
+          <p>Seleccionamos productos durables, locales y reutilizables para que cuidar el planeta sea parte de tu rutina.</p>
+          <a class="button" href="#productos">Explorar colección</a>
+        </div>
+        <img src="assets/hero.svg" alt="Ilustración de productos reutilizables rodeados de hojas" width="540" height="360">
+      </section>
+
+      <div class="content-grid">
+        <aside class="sidebar" aria-label="Acceso y categorías">
+          <section class="panel">
+            <h2>Mi cuenta</h2>
+            <form action="#" method="post">
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="nombre@correo.com" required>
+              <label for="password">Contraseña</label>
+              <input id="password" name="password" type="password" autocomplete="current-password" minlength="6" required>
+              <button type="submit">Ingresar</button>
+            </form>
+            <a class="text-link" href="#contacto">¿Necesitas ayuda?</a>
+          </section>
+          <section class="panel category-panel">
+            <h2>Categorías</h2>
+            <ul>
+              <li><a href="#productos">Cocina</a></li>
+              <li><a href="#productos">Cuidado personal</a></li>
+              <li><a href="#productos">Hogar</a></li>
+            </ul>
+          </section>
+        </aside>
+
+        <section id="productos" class="products" aria-labelledby="products-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">Favoritos de la comunidad</p><h2 id="products-title">Productos destacados</h2></div>
+            <span>6 productos</span>
+          </div>
+          <div class="product-grid">
+            <article class="product-card"><img src="assets/bottle.svg" alt="Botella térmica verde de acero" width="260" height="210"><div class="card-body"><span class="tag">Más vendido</span><h3>Botella térmica Andina</h3><p>Acero inoxidable · 750 ml</p><div class="card-footer"><strong>$64.900</strong><a class="button small" href="#contacto">Comprar</a></div></div></article>
+            <article class="product-card"><img src="assets/bag.svg" alt="Bolsa de mercado reutilizable beige" width="260" height="210"><div class="card-body"><span class="tag">Local</span><h3>Bolsa Mercado Vivo</h3><p>Algodón nacional reforzado</p><div class="card-footer"><strong>$29.900</strong><a class="button small" href="#contacto">Comprar</a></div></div></article>
+            <article class="product-card"><img src="assets/cup.svg" alt="Vaso reutilizable color terracota" width="260" height="210"><div class="card-body"><span class="tag">Nuevo</span><h3>Vaso Café Circular</h3><p>Fibra vegetal · 350 ml</p><div class="card-footer"><strong>$38.500</strong><a class="button small" href="#contacto">Comprar</a></div></div></article>
+            <article class="product-card"><img src="assets/brush.svg" alt="Cepillo de bambú con cerdas suaves" width="260" height="210"><div class="card-body"><span class="tag">Compostable</span><h3>Cepillo Bambú Suave</h3><p>Mango biodegradable</p><div class="card-footer"><strong>$12.900</strong><a class="button small" href="#contacto">Comprar</a></div></div></article>
+            <article class="product-card"><img src="assets/jar.svg" alt="Frasco de vidrio con tapa de madera" width="260" height="210"><div class="card-body"><span class="tag">Hogar</span><h3>Frasco Despensa Clara</h3><p>Vidrio reciclable · 1 litro</p><div class="card-footer"><strong>$34.900</strong><a class="button small" href="#contacto">Comprar</a></div></div></article>
+            <article class="product-card"><img src="assets/soap.svg" alt="Jabón artesanal sobre una bandeja" width="260" height="210"><div class="card-body"><span class="tag">Artesanal</span><h3>Jabón Bosque Fresco</h3><p>Romero y arcilla · 100 g</p><div class="card-footer"><strong>$16.500</strong><a class="button small" href="#contacto">Comprar</a></div></div></article>
+          </div>
+        </section>
+      </div>
+
+      <section id="beneficios" class="benefits" aria-labelledby="benefits-title">
+        <div><p class="eyebrow">Compra con propósito</p><h2 id="benefits-title">Lo bueno se nota</h2></div>
+        <ul><li><strong>Empaque mínimo</strong><span>Material reciclado y sin plástico innecesario.</span></li><li><strong>Origen cercano</strong><span>Priorizamos talleres y proveedores colombianos.</span></li><li><strong>Hecho para durar</strong><span>Menos reemplazos, más valor en cada compra.</span></li></ul>
+      </section>
+
+      <section id="nosotros" class="about" aria-labelledby="about-title"><p class="eyebrow">Nuestra raíz</p><h2 id="about-title">Elegir mejor también puede ser sencillo.</h2><p>Tienda nació como una vitrina académica para demostrar cómo HTML semántico y CSS pueden comunicar un modelo de negocio claro, accesible y adaptable a distintos dispositivos.</p></section>
+    </main>
+
+    <footer id="contacto" class="site-footer"><div><strong>Tienda</strong><p>Proyecto académico de Programación Web · 2026</p></div><address><a href="mailto:hola@tienda.ejemplo">hola@tienda.ejemplo</a><span>Bogotá, Colombia</span></address></footer>
+  </div>
+</body>
+</html>
